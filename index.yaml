@@ -3,7 +3,7 @@ entries:
   camel-k-poc:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-10T13:26:39.7632632+03:00"
+    created: "2023-05-10T14:04:54.1824298+03:00"
     dependencies:
     - name: postgresql
       repository: ""
@@ -22,6 +22,6 @@ entries:
     name: camel-k-poc
     type: application
     urls:
-    - camel-k-poc-0.1.0.tgz
+    - https://github.com/niktzatz/helm/camel-k-poc-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-10T13:26:39.7248836+03:00"
+generated: "2023-05-10T14:04:54.141393+03:00"
