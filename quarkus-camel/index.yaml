@@ -1,14 +1,14 @@
 apiVersion: v1
 entries:
-  quarkus-camel-chart:
+  quarkus-camel:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-10T14:39:28.0412+03:00"
+    created: "2023-05-10T16:38:37.419907+03:00"
     description: A Helm chart for Kubernetes
-    digest: 33dba1de88c3e0d049d0eec9239e85f52555855e368910d7f21accbd9ea41133
-    name: quarkus-camel-chart
+    digest: 94a626a987857888ffda9b084ad121f999986f2eb787097529ef247077ca7aec
+    name: quarkus-camel
     type: application
     urls:
-    - quarkus-camel-chart-0.1.0.tgz
+    - quarkus-camel-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-10T14:39:28.0406748+03:00"
+generated: "2023-05-10T16:38:37.4188563+03:00"
