@@ -3,22 +3,30 @@ entries:
   camel-k-poc:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-10T17:45:21.0689249+03:00"
+    created: "2023-05-11T17:29:17.2295203+03:00"
     dependencies:
     - name: postgresql
       repository: ""
+      tags:
+      - database
       version: 12.4.2
     - name: artemis
       repository: ""
+      tags:
+      - amq
       version: 0.1.0
     - name: camel-k
       repository: ""
+      tags:
+      - camel-k
       version: 0.13.0
     - name: kube-prometheus-stack
       repository: ""
+      tags:
+      - monitoring
       version: 45.25.0
     description: A Helm chart for Kubernetes
-    digest: 5be1277fbdd4ec0c4bc46f681f587f32710579bb5b3e7d2cd625686a88e0a381
+    digest: f5949c194953fc09e75ffce57bec11e6b8b92c4563706782cd79153da3318fd7
     name: camel-k-poc
     type: application
     urls:
@@ -27,7 +35,7 @@ entries:
   quarkus-camel:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-10T17:45:21.0699213+03:00"
+    created: "2023-05-11T17:29:17.2300454+03:00"
     description: A Helm chart for Kubernetes
     digest: 94a626a987857888ffda9b084ad121f999986f2eb787097529ef247077ca7aec
     name: quarkus-camel
@@ -35,4 +43,4 @@ entries:
     urls:
     - quarkus-camel-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-10T17:45:21.0306576+03:00"
+generated: "2023-05-11T17:29:17.1917026+03:00"
